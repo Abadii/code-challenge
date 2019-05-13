@@ -12,7 +12,7 @@ describe('getClosestValue', () => {
     });
 
     it('Should return first value when input is exactly between two values', () => {
-        expect(getClosestValue(57, uniqueNumbers)).toBe(52);
+        expect(getClosestValue(47, uniqueNumbers)).toBe(42);
     });
 
     it('Should return the value when input is an exact match', () => {
