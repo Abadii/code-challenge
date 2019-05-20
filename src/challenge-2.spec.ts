@@ -1,6 +1,6 @@
 import { removeOppositeChars } from './challenge-2';
 
-describe('getClosestValue', () => {
+describe('removeOppositeChars', () => {
     it('should remove opposite, adjacent characters', () => {
         expect(removeOppositeChars('aA')).toBe('');
     });
